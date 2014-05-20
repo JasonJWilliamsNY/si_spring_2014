@@ -22,7 +22,7 @@ def melting_temp_large(DNA):
     Tm = 64.9 + 41*((countG+countC)-16.4) / (countA+countT+countC+countG)
     print "Long strand: Tm is %.2f oC" %Tm 
 
-DNA = raw_input("Please enter a DNA strand\n")
+DNA = raw_input("Please enter a DNA strand\n ")
 DNA = DNA.lower()
 
 
